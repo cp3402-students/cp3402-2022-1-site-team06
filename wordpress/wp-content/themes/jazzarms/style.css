@@ -96,7 +96,11 @@ h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
 }
-
+header{
+	background: #262525;
+	width: 100%;
+	height: 100px;
+}
 /* Grouping content
 	 ========================================================================== */
 
@@ -408,7 +412,9 @@ textarea {
 	line-height: 1.5;
 }
 
-h1,
+h1 {
+
+}
 h2,
 h3,
 h4,
@@ -650,6 +656,7 @@ textarea {
 .main-navigation {
 	display: block;
 	width: 100%;
+	background-color: rgba(0, 0, 0, 0.55);
 }
 
 .main-navigation ul {
@@ -890,6 +897,11 @@ textarea {
 /* Re-display the Theme Footer when Infinite Scroll has reached its end. */
 .infinity-end.neverending .site-footer {
 	display: block;
+}
+footer{
+	background: #262525;
+	width: 100%;
+	height: 100px;
 }
 
 /*--------------------------------------------------------------

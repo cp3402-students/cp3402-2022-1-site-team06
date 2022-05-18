@@ -140,6 +140,8 @@ add_action( 'widgets_init', 'jazzarms_widgets_init' );
 function jazzarms_scripts() {
 	wp_enqueue_style( 'jazzarms-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'jazzarms-style', 'rtl', 'replace' );
+    wp_register_style('main', get_template_directory_uri() . '/css/main.css', array());
+    wp_enqueue_style('main');
 
 	wp_enqueue_script( 'jazzarms-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
