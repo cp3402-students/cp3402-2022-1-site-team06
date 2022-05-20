@@ -22,7 +22,6 @@
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'a2_db' );
 
-
 /** Database username */
 define( 'DB_USER', 'root' );
 
@@ -30,7 +29,7 @@ define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
-define( 'DB_HOST', '127.0.0.1:3308' );
+define( 'DB_HOST', '127.0.0.1' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
