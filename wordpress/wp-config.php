@@ -22,6 +22,7 @@
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'a2_db' );
 
+
 /** Database username */
 define( 'DB_USER', 'root' );
 
