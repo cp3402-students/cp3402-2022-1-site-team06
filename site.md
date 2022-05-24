@@ -12,7 +12,8 @@ logging in you will be redirected to the WordPress Dashboard.
 ### **Creating a New Page**
 
 To add a new page to the site, click on Pages in the Dashboard and then 
-click Add a New page![New Page](newpage.png).
+click Add a New page.
+![New Page](newpage.png)
 
 However, if you are still viewing the website from a visitor's perspective
 you can click the **+ New** section. ![View Page](newpage2.png)
