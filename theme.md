@@ -5,15 +5,15 @@
 * **Header** - The sites header appears the same throughout all pages, to give a feeling of consistency. 
 Which also includes the sites' navigation, page title and site title.
 * **Footer** - The footer is consistent across all pages and displays the [underscores](https://underscores.me/) link.
-* **Style** - The style of the site is done completely in CSS, within a [main.css file](#Important Files) however an 
-extra .css file can be enqueued within the [functions.php](#Important Files) file to add different types of styling.
+* **Style** - The style of the site is done completely in CSS, within a main.css file however an 
+extra .css file can be enqueued within the functions.php file to add different types of styling.
 * **Content** - In regards to the conent of the website, we steered clear
 of adding too much as we thought there is already a lot jumping out at the visitors of the site
 we ended up removing, the audio clips and the radio page as it seemed a bit excessive.
 
 ## Important Files
 ### _Files that have been altered_
-* **_main.css_** - Contains all styling and [design decisions](#Design Decisions) for the JazzArms theme.
+* **_main.css_** - Contains all styling and design decisions for the JazzArms theme.
 * **_functions.php_** - Enqueues the _main.css_ file as a template.
 * **_header.php_** - Adjusts the spacing of the site navigation.
 * **_style.css_** - Adjusts background colour (default) and header sizing.
